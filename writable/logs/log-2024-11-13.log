@@ -1,0 +1,440 @@
+CRITICAL - 2024-11-13 08:49:13 --> Class "App\Models\UserModel" not found
+#0 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(928): App\Controllers\Home->login()
+#1 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\user\Desktop\project\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\user\Desktop\project\kasir\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\user\\D...')
+#5 {main}
+ERROR - 2024-11-13 08:49:32 --> No database selected
+CRITICAL - 2024-11-13 08:49:32 --> Call to a member function getFirstRow() on bool
+#0 C:\Users\user\Desktop\project\kasir\system\BaseModel.php(644): CodeIgniter\Model->doFirst()
+#1 C:\Users\user\Desktop\project\kasir\app\Controllers\Home.php(22): CodeIgniter\BaseModel->first()
+#2 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(928): App\Controllers\Home->login()
+#3 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\user\Desktop\project\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\user\Desktop\project\kasir\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\user\\D...')
+#7 {main}
+ERROR - 2024-11-13 08:50:35 --> No database selected
+CRITICAL - 2024-11-13 08:50:35 --> Call to a member function getFirstRow() on bool
+#0 C:\Users\user\Desktop\project\kasir\system\BaseModel.php(644): CodeIgniter\Model->doFirst()
+#1 C:\Users\user\Desktop\project\kasir\app\Controllers\Home.php(22): CodeIgniter\BaseModel->first()
+#2 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(928): App\Controllers\Home->login()
+#3 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\user\Desktop\project\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\user\Desktop\project\kasir\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\user\\D...')
+#7 {main}
+ERROR - 2024-11-13 08:54:03 --> No database selected
+CRITICAL - 2024-11-13 08:54:03 --> Call to a member function getFirstRow() on bool
+#0 C:\Users\user\Desktop\project\kasir\system\BaseModel.php(644): CodeIgniter\Model->doFirst()
+#1 C:\Users\user\Desktop\project\kasir\app\Controllers\Home.php(28): CodeIgniter\BaseModel->first()
+#2 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(928): App\Controllers\Home->aksi_login()
+#3 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\user\Desktop\project\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\user\Desktop\project\kasir\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\user\\D...')
+#7 {main}
+CRITICAL - 2024-11-13 09:08:55 --> Undefined variable $pelanggan
+#0 C:\Users\user\Desktop\project\kasir\app\Views\pelanggan.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\user\\D...', 16)
+#1 C:\Users\user\Desktop\project\kasir\system\View\View.php(230): include('C:\\Users\\user\\D...')
+#2 C:\Users\user\Desktop\project\kasir\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\user\Desktop\project\kasir\system\Common.php(1271): CodeIgniter\View\View->render('pelanggan', Array, true)
+#4 C:\Users\user\Desktop\project\kasir\app\Controllers\Home.php(73): view('pelanggan')
+#5 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(928): App\Controllers\Home->pelanggan()
+#6 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\user\Desktop\project\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\user\Desktop\project\kasir\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\user\\D...')
+#10 {main}
+CRITICAL - 2024-11-13 09:14:57 --> Undefined array key "PelangganID"
+#0 C:\Users\user\Desktop\project\kasir\app\Views\pelanggan.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\user\\D...', 55)
+#1 C:\Users\user\Desktop\project\kasir\system\View\View.php(230): include('C:\\Users\\user\\D...')
+#2 C:\Users\user\Desktop\project\kasir\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\user\Desktop\project\kasir\system\Common.php(1271): CodeIgniter\View\View->render('pelanggan', Array, true)
+#4 C:\Users\user\Desktop\project\kasir\app\Controllers\Home.php(78): view('pelanggan', Array)
+#5 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(928): App\Controllers\Home->pelanggan()
+#6 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\user\Desktop\project\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\user\Desktop\project\kasir\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\user\\D...')
+#10 {main}
+CRITICAL - 2024-11-13 09:15:14 --> Undefined array key "PelangganID"
+#0 C:\Users\user\Desktop\project\kasir\app\Views\pelanggan.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\user\\D...', 55)
+#1 C:\Users\user\Desktop\project\kasir\system\View\View.php(230): include('C:\\Users\\user\\D...')
+#2 C:\Users\user\Desktop\project\kasir\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\user\Desktop\project\kasir\system\Common.php(1271): CodeIgniter\View\View->render('pelanggan', Array, true)
+#4 C:\Users\user\Desktop\project\kasir\app\Controllers\Home.php(78): view('pelanggan', Array)
+#5 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(928): App\Controllers\Home->pelanggan()
+#6 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\user\Desktop\project\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\user\Desktop\project\kasir\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\user\\D...')
+#10 {main}
+CRITICAL - 2024-11-13 09:15:58 --> Undefined array key "PelangganID"
+#0 C:\Users\user\Desktop\project\kasir\app\Views\pelanggan.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\user\\D...', 55)
+#1 C:\Users\user\Desktop\project\kasir\system\View\View.php(230): include('C:\\Users\\user\\D...')
+#2 C:\Users\user\Desktop\project\kasir\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\user\Desktop\project\kasir\system\Common.php(1271): CodeIgniter\View\View->render('pelanggan', Array, true)
+#4 C:\Users\user\Desktop\project\kasir\app\Controllers\Home.php(78): view('pelanggan', Array)
+#5 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(928): App\Controllers\Home->pelanggan()
+#6 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\user\Desktop\project\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\user\Desktop\project\kasir\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\user\\D...')
+#10 {main}
+CRITICAL - 2024-11-13 09:36:41 --> Undefined variable $penjualan
+#0 C:\Users\user\Desktop\project\kasir\app\Views\penjualan.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\user\\D...', 29)
+#1 C:\Users\user\Desktop\project\kasir\system\View\View.php(230): include('C:\\Users\\user\\D...')
+#2 C:\Users\user\Desktop\project\kasir\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\user\Desktop\project\kasir\system\Common.php(1271): CodeIgniter\View\View->render('penjualan', Array, true)
+#4 C:\Users\user\Desktop\project\kasir\app\Controllers\Home.php(174): view('penjualan')
+#5 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(928): App\Controllers\Home->penjualan()
+#6 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\user\Desktop\project\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\user\Desktop\project\kasir\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\user\\D...')
+#10 {main}
+CRITICAL - 2024-11-13 09:47:37 --> Undefined variable $produk
+#0 C:\Users\user\Desktop\project\kasir\app\Views\penjualan.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\user\\D...', 16)
+#1 C:\Users\user\Desktop\project\kasir\system\View\View.php(230): include('C:\\Users\\user\\D...')
+#2 C:\Users\user\Desktop\project\kasir\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\user\Desktop\project\kasir\system\Common.php(1271): CodeIgniter\View\View->render('penjualan', Array, true)
+#4 C:\Users\user\Desktop\project\kasir\app\Controllers\Home.php(180): view('penjualan', Array)
+#5 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(928): App\Controllers\Home->penjualan()
+#6 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\user\Desktop\project\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\user\Desktop\project\kasir\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\user\\D...')
+#10 {main}
+CRITICAL - 2024-11-13 09:47:38 --> Undefined variable $produk
+#0 C:\Users\user\Desktop\project\kasir\app\Views\penjualan.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\user\\D...', 16)
+#1 C:\Users\user\Desktop\project\kasir\system\View\View.php(230): include('C:\\Users\\user\\D...')
+#2 C:\Users\user\Desktop\project\kasir\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\user\Desktop\project\kasir\system\Common.php(1271): CodeIgniter\View\View->render('penjualan', Array, true)
+#4 C:\Users\user\Desktop\project\kasir\app\Controllers\Home.php(180): view('penjualan', Array)
+#5 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(928): App\Controllers\Home->penjualan()
+#6 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\user\Desktop\project\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\user\Desktop\project\kasir\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\user\\D...')
+#10 {main}
+CRITICAL - 2024-11-13 09:47:39 --> Undefined variable $produk
+#0 C:\Users\user\Desktop\project\kasir\app\Views\penjualan.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\user\\D...', 16)
+#1 C:\Users\user\Desktop\project\kasir\system\View\View.php(230): include('C:\\Users\\user\\D...')
+#2 C:\Users\user\Desktop\project\kasir\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\user\Desktop\project\kasir\system\Common.php(1271): CodeIgniter\View\View->render('penjualan', Array, true)
+#4 C:\Users\user\Desktop\project\kasir\app\Controllers\Home.php(180): view('penjualan', Array)
+#5 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(928): App\Controllers\Home->penjualan()
+#6 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\user\Desktop\project\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\user\Desktop\project\kasir\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\user\\D...')
+#10 {main}
+CRITICAL - 2024-11-13 09:55:07 --> Undefined variable $produk
+#0 C:\Users\user\Desktop\project\kasir\app\Views\penjualan.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\user\\D...', 16)
+#1 C:\Users\user\Desktop\project\kasir\system\View\View.php(230): include('C:\\Users\\user\\D...')
+#2 C:\Users\user\Desktop\project\kasir\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\user\Desktop\project\kasir\system\Common.php(1271): CodeIgniter\View\View->render('penjualan', Array, true)
+#4 C:\Users\user\Desktop\project\kasir\app\Controllers\Home.php(180): view('penjualan', Array)
+#5 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(928): App\Controllers\Home->penjualan()
+#6 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\user\Desktop\project\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\user\Desktop\project\kasir\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\user\\D...')
+#10 {main}
+CRITICAL - 2024-11-13 10:05:34 --> Undefined variable $produk
+#0 C:\Users\user\Desktop\project\kasir\app\Views\penjualan.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\user\\D...', 73)
+#1 C:\Users\user\Desktop\project\kasir\system\View\View.php(230): include('C:\\Users\\user\\D...')
+#2 C:\Users\user\Desktop\project\kasir\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\user\Desktop\project\kasir\system\Common.php(1271): CodeIgniter\View\View->render('penjualan', Array, true)
+#4 C:\Users\user\Desktop\project\kasir\app\Controllers\Home.php(179): view('penjualan', Array)
+#5 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(928): App\Controllers\Home->penjualan()
+#6 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\user\Desktop\project\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\user\Desktop\project\kasir\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\user\\D...')
+#10 {main}
+CRITICAL - 2024-11-13 10:05:36 --> Undefined variable $produk
+#0 C:\Users\user\Desktop\project\kasir\app\Views\penjualan.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\user\\D...', 73)
+#1 C:\Users\user\Desktop\project\kasir\system\View\View.php(230): include('C:\\Users\\user\\D...')
+#2 C:\Users\user\Desktop\project\kasir\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\user\Desktop\project\kasir\system\Common.php(1271): CodeIgniter\View\View->render('penjualan', Array, true)
+#4 C:\Users\user\Desktop\project\kasir\app\Controllers\Home.php(179): view('penjualan', Array)
+#5 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(928): App\Controllers\Home->penjualan()
+#6 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\user\Desktop\project\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\user\Desktop\project\kasir\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\user\\D...')
+#10 {main}
+ERROR - 2024-11-13 10:22:01 --> Column 'NamaPelanggan' cannot be null
+ERROR - 2024-11-13 10:22:01 --> Cannot add or update a child row: a foreign key constraint fails (`kasir`.`penjualan`, CONSTRAINT `penjualan_ibfk_1` FOREIGN KEY (`PelangganID`) REFERENCES `pelanggan` (`PelangganID`))
+ERROR - 2024-11-13 10:22:01 --> Cannot add or update a child row: a foreign key constraint fails (`kasir`.`detailpenjualan`, CONSTRAINT `detailpenjualan_ibfk_1` FOREIGN KEY (`PenjualanID`) REFERENCES `penjualan` (`PenjualanID`))
+CRITICAL - 2024-11-13 10:26:43 --> Undefined variable $detailPenjualanModel
+#0 C:\Users\user\Desktop\project\kasir\app\Views\penjualan.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\user\\D...', 32)
+#1 C:\Users\user\Desktop\project\kasir\system\View\View.php(230): include('C:\\Users\\user\\D...')
+#2 C:\Users\user\Desktop\project\kasir\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\user\Desktop\project\kasir\system\Common.php(1271): CodeIgniter\View\View->render('penjualan', Array, true)
+#4 C:\Users\user\Desktop\project\kasir\app\Controllers\Home.php(188): view('penjualan', Array)
+#5 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(928): App\Controllers\Home->penjualan()
+#6 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\user\Desktop\project\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\user\Desktop\project\kasir\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\user\\D...')
+#10 {main}
+CRITICAL - 2024-11-13 10:27:50 --> Undefined variable $produk
+#0 C:\Users\user\Desktop\project\kasir\app\Views\penjualan.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\user\\D...', 114)
+#1 C:\Users\user\Desktop\project\kasir\system\View\View.php(230): include('C:\\Users\\user\\D...')
+#2 C:\Users\user\Desktop\project\kasir\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\user\Desktop\project\kasir\system\Common.php(1271): CodeIgniter\View\View->render('penjualan', Array, true)
+#4 C:\Users\user\Desktop\project\kasir\app\Controllers\Home.php(191): view('penjualan', Array)
+#5 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(928): App\Controllers\Home->penjualan()
+#6 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\user\Desktop\project\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\user\Desktop\project\kasir\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\user\\D...')
+#10 {main}
+ERROR - 2024-11-13 10:36:05 --> Column 'NamaPelanggan' cannot be null
+ERROR - 2024-11-13 10:36:05 --> Cannot add or update a child row: a foreign key constraint fails (`kasir`.`penjualan`, CONSTRAINT `penjualan_ibfk_1` FOREIGN KEY (`PelangganID`) REFERENCES `pelanggan` (`PelangganID`))
+CRITICAL - 2024-11-13 10:36:05 --> foreach() argument must be of type array|object, string given
+#0 C:\Users\user\Desktop\project\kasir\app\Controllers\Home.php(228): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\Users\\user\\D...', 228)
+#1 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(928): App\Controllers\Home->tambahpenjualan()
+#2 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\user\Desktop\project\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\user\Desktop\project\kasir\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\user\\D...')
+#6 {main}
+CRITICAL - 2024-11-13 11:00:41 --> Undefined variable $users
+#0 C:\Users\user\Desktop\project\kasir\app\Views\user.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\user\\D...', 28)
+#1 C:\Users\user\Desktop\project\kasir\system\View\View.php(230): include('C:\\Users\\user\\D...')
+#2 C:\Users\user\Desktop\project\kasir\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\user\Desktop\project\kasir\system\Common.php(1271): CodeIgniter\View\View->render('user', Array, true)
+#4 C:\Users\user\Desktop\project\kasir\app\Controllers\Home.php(346): view('user')
+#5 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(928): App\Controllers\Home->user()
+#6 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\user\Desktop\project\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\user\Desktop\project\kasir\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\user\\D...')
+#10 {main}
+CRITICAL - 2024-11-13 11:04:11 --> Invalid file: setting.php
+#0 C:\Users\user\Desktop\project\kasir\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('setting.php')
+#1 C:\Users\user\Desktop\project\kasir\system\Common.php(1271): CodeIgniter\View\View->render('setting', Array, true)
+#2 C:\Users\user\Desktop\project\kasir\app\Controllers\Home.php(423): view('setting')
+#3 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(928): App\Controllers\Home->setting()
+#4 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\user\Desktop\project\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\user\Desktop\project\kasir\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\user\\D...')
+#8 {main}
+CRITICAL - 2024-11-13 11:06:49 --> Invalid file: logactivity.php
+#0 C:\Users\user\Desktop\project\kasir\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('logactivity.php')
+#1 C:\Users\user\Desktop\project\kasir\system\Common.php(1271): CodeIgniter\View\View->render('logactivity', Array, true)
+#2 C:\Users\user\Desktop\project\kasir\app\Controllers\Home.php(412): view('logactivity', Array)
+#3 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(928): App\Controllers\Home->logactivity()
+#4 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\user\Desktop\project\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\user\Desktop\project\kasir\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\user\\D...')
+#8 {main}
+CRITICAL - 2024-11-13 11:10:22 --> Too few arguments to function App\Controllers\Home::logActivity(), 0 passed in C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(928): App\Controllers\Home->logActivity()
+#1 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\user\Desktop\project\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\user\Desktop\project\kasir\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\user\\D...')
+#5 {main}
+CRITICAL - 2024-11-13 11:13:18 --> Too few arguments to function App\Controllers\Home::logActivity(), 0 passed in C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(928): App\Controllers\Home->logActivity()
+#1 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\user\Desktop\project\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\user\Desktop\project\kasir\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\user\\D...')
+#5 {main}
+CRITICAL - 2024-11-13 11:15:02 --> Too few arguments to function App\Controllers\Home::logActivity(), 0 passed in C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(928): App\Controllers\Home->logActivity()
+#1 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\user\Desktop\project\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\user\Desktop\project\kasir\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\user\\D...')
+#5 {main}
+CRITICAL - 2024-11-13 11:15:07 --> Too few arguments to function App\Controllers\Home::logActivity(), 0 passed in C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(928): App\Controllers\Home->logActivity()
+#1 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\user\Desktop\project\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\user\Desktop\project\kasir\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\user\\D...')
+#5 {main}
+CRITICAL - 2024-11-13 11:15:08 --> Too few arguments to function App\Controllers\Home::logActivity(), 0 passed in C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(928): App\Controllers\Home->logActivity()
+#1 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\user\Desktop\project\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\user\Desktop\project\kasir\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\user\\D...')
+#5 {main}
+CRITICAL - 2024-11-13 11:15:09 --> Too few arguments to function App\Controllers\Home::logActivity(), 0 passed in C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(928): App\Controllers\Home->logActivity()
+#1 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\user\Desktop\project\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\user\Desktop\project\kasir\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\user\\D...')
+#5 {main}
+CRITICAL - 2024-11-13 11:22:35 --> Too few arguments to function App\Controllers\Home::logActivity(), 0 passed in C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php on line 928 and at least 1 expected
+#0 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(928): App\Controllers\Home->logActivity()
+#1 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\user\Desktop\project\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\user\Desktop\project\kasir\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\user\\D...')
+#5 {main}
+CRITICAL - 2024-11-13 11:26:31 --> Invalid file: setting.php
+#0 C:\Users\user\Desktop\project\kasir\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('setting.php')
+#1 C:\Users\user\Desktop\project\kasir\system\Common.php(1271): CodeIgniter\View\View->render('setting', Array, true)
+#2 C:\Users\user\Desktop\project\kasir\app\Controllers\Home.php(454): view('setting')
+#3 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(928): App\Controllers\Home->setting()
+#4 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\user\Desktop\project\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\user\Desktop\project\kasir\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\user\\D...')
+#8 {main}
+CRITICAL - 2024-11-13 11:26:32 --> Invalid file: setting.php
+#0 C:\Users\user\Desktop\project\kasir\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('setting.php')
+#1 C:\Users\user\Desktop\project\kasir\system\Common.php(1271): CodeIgniter\View\View->render('setting', Array, true)
+#2 C:\Users\user\Desktop\project\kasir\app\Controllers\Home.php(454): view('setting')
+#3 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(928): App\Controllers\Home->setting()
+#4 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\user\Desktop\project\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\user\Desktop\project\kasir\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\user\\D...')
+#8 {main}
+CRITICAL - 2024-11-13 11:26:33 --> Invalid file: setting.php
+#0 C:\Users\user\Desktop\project\kasir\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('setting.php')
+#1 C:\Users\user\Desktop\project\kasir\system\Common.php(1271): CodeIgniter\View\View->render('setting', Array, true)
+#2 C:\Users\user\Desktop\project\kasir\app\Controllers\Home.php(454): view('setting')
+#3 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(928): App\Controllers\Home->setting()
+#4 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\user\Desktop\project\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\user\Desktop\project\kasir\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\user\\D...')
+#8 {main}
+CRITICAL - 2024-11-13 11:38:05 --> bootstrap_pagination is not a valid Pager template.
+#0 C:\Users\user\Desktop\project\kasir\system\Pager\Pager.php(152): CodeIgniter\Pager\Exceptions\PagerException::forInvalidTemplate('bootstrap_pagin...')
+#1 C:\Users\user\Desktop\project\kasir\system\Pager\Pager.php(93): CodeIgniter\Pager\Pager->displayLinks('default', 'bootstrap_pagin...')
+#2 C:\Users\user\Desktop\project\kasir\app\Views\logactivity.php(60): CodeIgniter\Pager\Pager->links('default', 'bootstrap_pagin...')
+#3 C:\Users\user\Desktop\project\kasir\system\View\View.php(230): include('C:\\Users\\user\\D...')
+#4 C:\Users\user\Desktop\project\kasir\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\Users\user\Desktop\project\kasir\system\Common.php(1271): CodeIgniter\View\View->render('logactivity', Array, true)
+#6 C:\Users\user\Desktop\project\kasir\app\Controllers\Home.php(511): view('logactivity', Array)
+#7 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(928): App\Controllers\Home->activity()
+#8 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\user\Desktop\project\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\user\Desktop\project\kasir\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\user\\D...')
+#12 {main}
+CRITICAL - 2024-11-13 11:38:44 --> bootstrap_pagination is not a valid Pager template.
+#0 C:\Users\user\Desktop\project\kasir\system\Pager\Pager.php(152): CodeIgniter\Pager\Exceptions\PagerException::forInvalidTemplate('bootstrap_pagin...')
+#1 C:\Users\user\Desktop\project\kasir\system\Pager\Pager.php(93): CodeIgniter\Pager\Pager->displayLinks('default', 'bootstrap_pagin...')
+#2 C:\Users\user\Desktop\project\kasir\app\Views\logactivity.php(79): CodeIgniter\Pager\Pager->links('default', 'bootstrap_pagin...')
+#3 C:\Users\user\Desktop\project\kasir\system\View\View.php(230): include('C:\\Users\\user\\D...')
+#4 C:\Users\user\Desktop\project\kasir\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\Users\user\Desktop\project\kasir\system\Common.php(1271): CodeIgniter\View\View->render('logactivity', Array, true)
+#6 C:\Users\user\Desktop\project\kasir\app\Controllers\Home.php(511): view('logactivity', Array)
+#7 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(928): App\Controllers\Home->activity()
+#8 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\user\Desktop\project\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\user\Desktop\project\kasir\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\user\\D...')
+#12 {main}
+CRITICAL - 2024-11-13 11:39:52 --> Invalid file: setting.php
+#0 C:\Users\user\Desktop\project\kasir\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('setting.php')
+#1 C:\Users\user\Desktop\project\kasir\system\Common.php(1271): CodeIgniter\View\View->render('setting', Array, true)
+#2 C:\Users\user\Desktop\project\kasir\app\Controllers\Home.php(527): view('setting')
+#3 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(928): App\Controllers\Home->setting()
+#4 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\user\Desktop\project\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\user\Desktop\project\kasir\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\user\\D...')
+#8 {main}
+CRITICAL - 2024-11-13 11:41:17 --> Invalid file: setting.php
+#0 C:\Users\user\Desktop\project\kasir\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('setting.php')
+#1 C:\Users\user\Desktop\project\kasir\system\Common.php(1271): CodeIgniter\View\View->render('setting', Array, true)
+#2 C:\Users\user\Desktop\project\kasir\app\Controllers\Home.php(527): view('setting')
+#3 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(928): App\Controllers\Home->setting()
+#4 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\user\Desktop\project\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\user\Desktop\project\kasir\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\user\\D...')
+#8 {main}
+CRITICAL - 2024-11-13 11:57:51 --> Undefined variable $settings
+#0 C:\Users\user\Desktop\project\kasir\app\Views\header.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\user\\D...', 4)
+#1 C:\Users\user\Desktop\project\kasir\system\View\View.php(230): include('C:\\Users\\user\\D...')
+#2 C:\Users\user\Desktop\project\kasir\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\user\Desktop\project\kasir\system\Common.php(1271): CodeIgniter\View\View->render('header', Array, true)
+#4 C:\Users\user\Desktop\project\kasir\app\Controllers\Home.php(101): view('header')
+#5 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(928): App\Controllers\Home->pelanggan()
+#6 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\user\Desktop\project\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\user\Desktop\project\kasir\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\user\\D...')
+#10 {main}
+CRITICAL - 2024-11-13 11:58:54 --> Trying to access array offset on value of type null
+#0 C:\Users\user\Desktop\project\kasir\app\Views\header.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\Users\\user\\D...', 4)
+#1 C:\Users\user\Desktop\project\kasir\system\View\View.php(230): include('C:\\Users\\user\\D...')
+#2 C:\Users\user\Desktop\project\kasir\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\user\Desktop\project\kasir\system\Common.php(1271): CodeIgniter\View\View->render('header', Array, true)
+#4 C:\Users\user\Desktop\project\kasir\app\Controllers\Home.php(84): view('header', Array)
+#5 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(928): App\Controllers\Home->dashboard()
+#6 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\user\Desktop\project\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\user\Desktop\project\kasir\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\user\\D...')
+#10 {main}
+CRITICAL - 2024-11-13 11:59:28 --> Trying to access array offset on value of type null
+#0 C:\Users\user\Desktop\project\kasir\app\Views\menu.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\Users\\user\\D...', 2)
+#1 C:\Users\user\Desktop\project\kasir\system\View\View.php(230): include('C:\\Users\\user\\D...')
+#2 C:\Users\user\Desktop\project\kasir\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\user\Desktop\project\kasir\system\Common.php(1271): CodeIgniter\View\View->render('menu', Array, true)
+#4 C:\Users\user\Desktop\project\kasir\app\Controllers\Home.php(85): view('menu', Array)
+#5 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(928): App\Controllers\Home->dashboard()
+#6 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\user\Desktop\project\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\user\Desktop\project\kasir\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\user\\D...')
+#10 {main}
+CRITICAL - 2024-11-13 11:59:50 --> Undefined variable $settings
+#0 C:\Users\user\Desktop\project\kasir\app\Views\menu.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\user\\D...', 2)
+#1 C:\Users\user\Desktop\project\kasir\system\View\View.php(230): include('C:\\Users\\user\\D...')
+#2 C:\Users\user\Desktop\project\kasir\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\user\Desktop\project\kasir\system\Common.php(1271): CodeIgniter\View\View->render('menu', Array, true)
+#4 C:\Users\user\Desktop\project\kasir\app\Controllers\Home.php(106): view('menu')
+#5 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(928): App\Controllers\Home->pelanggan()
+#6 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\user\Desktop\project\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\user\Desktop\project\kasir\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\user\\D...')
+#10 {main}
+CRITICAL - 2024-11-13 12:01:06 --> Undefined variable $settings
+#0 C:\Users\user\Desktop\project\kasir\app\Views\menu.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\user\\D...', 2)
+#1 C:\Users\user\Desktop\project\kasir\system\View\View.php(230): include('C:\\Users\\user\\D...')
+#2 C:\Users\user\Desktop\project\kasir\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\user\Desktop\project\kasir\system\Common.php(1271): CodeIgniter\View\View->render('menu', Array, true)
+#4 C:\Users\user\Desktop\project\kasir\app\Controllers\Home.php(545): view('menu')
+#5 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(928): App\Controllers\Home->setting()
+#6 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\user\Desktop\project\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\user\Desktop\project\kasir\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\user\\D...')
+#10 {main}
+ERROR - 2024-11-13 19:29:47 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2024-11-13 19:29:47 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\Users\user\Desktop\project\kasir\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\user\Desktop\project\kasir\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\user\Desktop\project\kasir\system\Model.php(228): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\user\Desktop\project\kasir\system\BaseModel.php(644): CodeIgniter\Model->doFirst()
+#4 C:\Users\user\Desktop\project\kasir\app\Models\SettingModel.php(14): CodeIgniter\BaseModel->first()
+#5 C:\Users\user\Desktop\project\kasir\app\Controllers\Home.php(22): App\Models\SettingModel->getSettings()
+#6 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(928): App\Controllers\Home->login()
+#7 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\Users\user\Desktop\project\kasir\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\user\Desktop\project\kasir\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\user\Desktop\project\kasir\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\user\\D...')
+#11 {main}
